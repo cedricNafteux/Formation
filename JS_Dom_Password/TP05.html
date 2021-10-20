@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="TP05.css">
+        <script type="text/javascript" src="TP05.js"></script>
+        <title>TP05Password</title>
+    </head>
+    <body>
+        <form action="">
+            <label>Votre login : 
+                <input type="text">
+            </label><br><br>
+            <label >Votre mot de passe : 
+                <input id="idInput1" type="password">
+            </label>
+            <img id="oeil1" src="images/oeil_ferme.jpg" onmousedown="changeOeil1(this)" onmouseup="changeOeil1(this)">
+            <br><br>
+            <label for="">confirmez : 
+                <input id="idInput2" type="password">
+            </label>
+            <img id="oeil2" src="images/oeil_ferme.jpg"  onmouseup="changeOeil2(this)">
+            <br><br>
+            <button id="idBout" onClick="control(this)">Vérification</button>
+        </form>
+    </body>
+</html>
