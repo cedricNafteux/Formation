@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>domDate</title>
+        <link rel="stylesheet" href="domDate.css">
+       <script type="module"  src="domDate.js" ></script>
+    </head>
+    <body>
+        <h1>Calcul du nombre de jour</h1>
+
+        <fieldset>
+            <legend>Entrez votre date de naissance</legend>
+               <label for="annee">annee </label>
+                <select id="idAnnee"></select>
+            
+                <label for="mois">mois </label>
+                <select id="idMois"></select>
+                       
+                <label for="jour">jour </label>
+                <select id="idJour"></select> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Selectionnez l'unité</legend>           
+            <input type="radio" value="uJour" name="unite" id="uJour">jours<br>
+            <input type="radio" value="uMois" name="unite" id="uMois">mois<br>
+            <input type="radio" value="uAnnées" name="unite" id="uAnnee">années         
+        </fieldset>
+        <button id="idBout">Calculer</button>
+    </body>
+</html>
