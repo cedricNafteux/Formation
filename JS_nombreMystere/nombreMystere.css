@@ -4,17 +4,25 @@ h1{
 p{
     text-align: center;
 }
-fieldset{
-    display: grid;
-    grid-template-columns: repeat(1fr,1fr);
-}
 label{
-    width: 150px;
-    grid-column: 1/2;
+    width: 110px;
 }
-input{
-    grid-column: 2;
-    margin-right: 200px;
+.petit{
+    width:50px;
+    position: absolute;
+    left: 150px;
+
+}
+.normal{
+    width: 150px;
+    position: absolute;
+    left: 150px;
+
+}
+.grand{
+    width: 250px;
+    position: absolute;
+    left: 150px;
 }
 
 
