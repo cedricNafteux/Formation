@@ -1,0 +1,122 @@
+#idEcran{
+    width: 230px;
+    padding: 10px;
+    background-color: aqua;
+}
+#idEcran input{
+    width: 220px;
+}
+#idDivBout{
+    width: 250px;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+    background-color: aquamarine;
+}
+#idBout1{
+    width: 50px;
+    height: 50px;
+    grid-column: 1  ;
+    grid-row: 4 ;
+}
+#idBout2{
+    width: 50px;
+    height: 50px;
+    grid-column: 2  ;
+    grid-row: 4 ;
+}
+#idBout3{
+    width: 50px;
+    height: 50px;
+    grid-column: 3  ;
+    grid-row: 4 ;
+}
+#idBout4{
+    width: 50px;
+    height: 50px;
+    grid-column: 1  ;
+    grid-row: 3 ;
+}
+#idBout5{
+    width: 50px;
+    height: 50px;
+    grid-column: 2  ;
+    grid-row: 3 ;
+}
+#idBout6{
+    width: 50px;
+    height: 50px;
+    grid-column: 3 ;
+    grid-row: 3 ;
+}
+#idBout7{
+    width: 50px;
+    height: 50px;
+    grid-column: 1  ;
+    grid-row: 2 ;
+}
+#idBout8{
+    width: 50px;
+    height: 50px;
+    grid-column: 2  ;
+    grid-row: 2 ;
+}
+#idBout9{
+    width: 50px;
+    height: 50px;
+    grid-column: 3  ;
+    grid-row: 2 ;
+}
+#idBout0{
+    width: 50px;
+    height: 50px;
+    grid-column: 2  ;
+    grid-row: 5 ;
+}
+#idBoutC{
+ 
+    grid-column: 4  ;
+    grid-row: 4 / 6 ;
+    background-color: crimson;
+}
+#idBoutP{
+    width: 50px;
+    height: 50px;
+    grid-column: 1  ;
+    grid-row: 1 ;
+    background-color: darkgreen;
+    color: aliceblue;
+}
+#idBoutM{
+    width: 50px;
+    height: 50px;
+    grid-column: 2  ;
+    grid-row: 1 ;
+    background-color: darkgreen;
+    color: aliceblue;
+}
+#idBoutX{
+    width: 50px;
+    height: 50px;
+    grid-column: 3  ;
+    grid-row: 1 ;
+    background-color: darkgreen;
+    color: aliceblue;
+}
+#idBoutD{
+    width: 50px;
+    height: 50px;
+    grid-column: 4  ;
+    grid-row: 1 ;
+    background-color: darkgreen;
+    color: aliceblue;
+}
+#idBoutE{
+    width: 50px;
+    height: 50px;
+    grid-column: 4  ;
+    grid-row: 2 ;
+    background-color:cadetblue
+
+}
